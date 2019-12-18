@@ -1,0 +1,337 @@
+    input[type=submit] {
+    padding:5px 15px; 
+    background:#40E0D0; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-weight:bold;
+}
+input[type=submit]:hover {
+   background:#87CEEB; 
+}
+#main{
+ font-weight:bold;
+ font-size: 30px; 
+}
+   A:link { 
+    text-decoration: none; 
+   } 
+   A:visited { text-decoration: none; } 
+   A:active { text-decoration: none; }
+   A:hover {
+    background-color: #87CEEB; 
+   } 
+   .button { 
+  position:absolute; 
+  width:25px; 
+  height:25px; 
+  top:60%; 
+  right:50%;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 3px 20px rgba(0,0,0,.25),
+  inset 0 2px 0 rgba(255,255,255,.6),
+  0 2px 0 rgba(0,0,0,.1),
+  inset 0 0 20px rgba(0,0,0,.1);
+}
+.loginreg{
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    line-height: 1.154;
+    font-weight: 400;
+    display: block;
+    font-size: 13px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -160px;
+}
+.login{
+    margin-top: 0;
+    margin: 30px 0 20px;
+    padding: 25px;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    display: block;
+}
+.formlogin{
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 13px;
+  text-align: left;
+  direction: ltr;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.textlog{
+
+      margin-bottom: 15px;
+    width: 270px;
+  font-size: 14px;
+    padding: 6px 12px 8px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #d3d9de;
+    height: 35px;
+    border-radius: 3px;
+}
+.buttonlogin{
+  margin-right: 15px;
+    width: 100px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 3px;
+    padding: 7px 16px 8px;
+    margin: 0;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: #5181b8;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+}
+.buttonreg{ 
+  margin-left: 15px;
+    width: 250px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 3px;
+    padding: 7px 16px 8px;
+    margin: 0;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: #5181b8;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+}
+   .buttonmsg {
+   background-color: blue; 
+  position:absolute; 
+  width:25px; 
+  height:25px; 
+  top:60%; 
+  right:50%;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 3px 20px rgba(0,0,0,.25),
+  inset 0 2px 0 rgba(255,255,255,.6),
+  0 2px 0 rgba(0,0,0,.1),
+  inset 0 0 20px rgba(0,0,0,.1);
+}
+.modal {
+  display: none; 
+  z-index: 1; 
+  overflow: auto;
+}
+.replymodal{
+  position: absolute;
+  height: 450;
+  width: 400;
+  left: 150;
+  top: 50;
+  background: blue;
+  display: none; 
+  z-index: 1; 
+  overflow: auto;
+}
+.body{
+  background-color:#40E0D0;
+}
+.leftbar{
+  float:left; 
+  width : 23%;
+}
+.mailblock{
+  height:400px; 
+  width:700px; 
+  float:left;
+}
+.mess{
+  background-image: url(/img/fon.jpg); 
+  overflow: auto;
+  height: 550px;
+}
+.inputmess{
+  float:left;
+  width:670px;
+  resize: none;
+  height: 40px;  
+  }
+.inputsend{
+  background-image: url(/img/send.jpg);
+  float:right;
+  height: 40px;
+  width: 30px;  
+  }
+.messdate{
+  float:right; 
+  margin-bottom:15px; 
+  margin-right:10px; 
+  border-radius: 7%; 
+  margin-right:325px;
+}
+.rightmess{
+  float:right; 
+  border: 0px; 
+  background: #F5F5DC;  
+  cursor: pointer;
+  word-break: break-all; 
+  margin-bottom:15px; 
+  margin-right:10px; 
+  border-radius: 7%; 
+  margin-left:300px; 
+  text-align:right;
+}
+.leftmess{
+  float: left; 
+  border: 0px; 
+  background: #FFFFFF;  
+  cursor: pointer; 
+  word-break: break-all; 
+  margin-bottom:15px; 
+  margin-left:10px; 
+  border-radius: 7%; 
+  margin-right:350px;  
+  text-align:left;
+}
+.fontmsg{
+font-size:11px;
+}
+.dialogcontainer{
+    float:left;
+    height: auto;
+    width:700px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    padding-bottom: 45px;
+}
+
+    .readmsg {
+    width: 100%;
+    height: 71px;
+    background:white;   
+    border:0px; 
+    }
+    .readmsg:hover{
+    width: 100%;
+    background-color: #CCEFF0;
+    cursor: pointer;  
+    }
+    .msgavatar{
+    width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: inherit;  
+    }
+    .msgavatarcon{
+    margin-top: 10px;
+    display: block;
+      float: left;
+    }
+    .dialog{
+    margin:auto;
+    display:block;
+    height: 72px;
+    padding-left: 17px;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+    display: block;
+    width: 100%;
+    }
+    .msgcontent{
+    height: 60px;
+    padding: 0px 0;
+      margin-left: 64px;
+      position: relative;
+      display: block;
+      text-decoration: none;   
+    }
+    .logdate{
+      height: 25%;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      font-size: 13px;
+      }
+      .log{
+      font-weight: 700;
+      float:left;
+      color: #222;
+      max-width: 70%;
+      white-space: nowrap;
+      display: inline-block;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      padding-bottom: 1px;
+      }
+      .date{
+      margin-left:8px;
+      float:right;
+      color: #777e8c;
+      font-size: 12.5px;
+      opacity: 0.7; 
+      }
+      .checkimg{
+      margin-top:2px;
+      float:right;
+      width: 10px;
+      height: 10px;
+      background-color: inherit;
+      }
+      .whotext{
+      margin-top: 3px;
+      margin-bottom: 7px;
+      height: 25%;
+      max-width: 100%;
+      font-size: 13.5px;
+      color: #656565;
+      padding-bottom: 1px;
+      line-height: 16px;
+      }
+      .who{
+      color: 3396FF;
+      float:left;
+      }
+      .text{
+      height: 18px;
+      max-width: 95%;
+      float:left;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      }
+      .newmsg{
+      margin-top:1px;
+      color:#010709;
+      height: 15px;
+      width:20px;
+      background-color: #858889;  
+      font-weight: 700;
+      border-radius: 35%;
+      float:right; 
+      }
+      .pre{
+        white-space:pre-line;
+        margin: 0px;
+      }
