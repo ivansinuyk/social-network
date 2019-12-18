@@ -6,7 +6,7 @@ session_start();
 <meta charset="utf-8">
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<title>Ivangra</title>
+<title>Social media</title>
 <link rel="shortcut icon" href="img/icon.png" type="image/png">
 <link rel="stylesheet" href="css/style.css">
 </head>
